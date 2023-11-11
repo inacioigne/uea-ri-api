@@ -63,6 +63,19 @@
                     <required></required>
                 </field>
             </row>
+             <row>
+                <field>
+                    <dc-schema>dc</dc-schema>
+                    <dc-element>contributor</dc-element>
+                    <dc-qualifier>advisor-co1</dc-qualifier>
+                    <repeatable>false</repeatable>
+                    <label>Primeiro orientador</label>
+                    <input-type>onebox</input-type>
+                    <hint>CAMPO OBRIGATÓRIO: Informe o nome do primeiro orientador, conforme o formato de citação.</hint>
+                    <required></required>
+                </field>
+            </row>
+            dc.contributor.advisor-co1
             <row>
                 <field>
                     <dc-schema>dc</dc-schema>
