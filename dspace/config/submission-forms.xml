@@ -1475,6 +1475,22 @@
     <!-- stores the associated stored-values in the database.                  -->
 
     <form-value-pairs>
+    <!-- VALUE PAIRS UEA -->
+           <value-pairs value-pairs-name="common_rights" dc-term="rights">
+                <pair>
+                <displayed-value>Acesso Aberto</displayed-value>
+                <stored-value>Acesso Aberto</stored-value>
+                </pair>
+                <pair>
+                <displayed-value>Acesso Embargado</displayed-value>
+                <stored-value>Acesso Embargado</stored-value>
+                </pair>
+                <pair>
+                <displayed-value>Acesso Restrito</displayed-value>
+                <stored-value>Acesso Restrito</stored-value>
+                </pair>
+            </value-pairs>
+
         <value-pairs value-pairs-name="common_identifiers" dc-term="identifier">
             <pair>
                 <displayed-value>ISSN</displayed-value>
