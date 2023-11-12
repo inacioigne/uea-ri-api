@@ -273,6 +273,7 @@
                     <dc-element>creator</dc-element>
                     <dc-qualifier></dc-qualifier>
                     <repeatable>false</repeatable>
+                    <hint>TESTE</hint>
                     <label>Autor:</label>
                     <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
                     <input-type>name</input-type>
