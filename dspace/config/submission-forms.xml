@@ -273,8 +273,13 @@
                     <dc-element>creator</dc-element>
                     <dc-qualifier></dc-qualifier>
                     <repeatable>false</repeatable>
-                    <hint>TESTE</hint>
-                    <label>Autor:</label>
+                    <label>
+                    &lt;div class="alert alert-info"&gt;
+                    Descrição do &lt;strong&gt;AUTOR&lt;/strong&gt;
+                    &lt;/div&gt;
+                    &lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Informe o nome do autor, conforme o formato de citação.</hint>
+                    
+                    Autor:</label>
                     <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
                     <input-type>name</input-type>
                     <hint>&lt;div class="alert alert-info"&gt;
