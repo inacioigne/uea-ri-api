@@ -326,21 +326,21 @@
                     <required>*</required>
                 </field>
             </row>
-	   
-<!--
-	    <field>
-		 <dc-schema>dc</dc-schema>
-         <dc-element>contributor</dc-element>
-         <dc-qualifier>advisor1Lattes</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>&lt;a href="http://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar" target="_blank" &gt;URL do Currículo Lattes&lt;/a&gt; do primeiro orientador:</label>
-		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
-		 <input-type>onebox</input-type>
-         <hint>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Informe a URL do currículo lattes do primeiro orientador.</hint>
-        <required>*</required>
-       </field>
-	   
-	   <field>
+            <row>
+              <field>
+                <dc-schema>dc</dc-schema>
+                <dc-element>contributor</dc-element>
+                <dc-qualifier>advisor1Lattes</dc-qualifier>
+                <repeatable>false</repeatable>
+                <label>URL do Currículo Lattes do primeiro orientador:</label>
+                <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
+                <input-type>onebox</input-type>
+                <hint>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Informe a URL do currículo lattes do primeiro orientador.</hint>
+                <required>*</required>
+            </field>
+       </row>
+       <row>
+         <field>
 		 <dc-schema>dc</dc-schema>
          <dc-element>contributor</dc-element>
          <dc-qualifier>advisor1ID</dc-qualifier>
@@ -351,33 +351,37 @@
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o identificador único do primeiro orientador(CPF, ID de autor privativa da instituição ou passaporte).</hint>
          <required></required>
        </field>  
-       
+       </row>
+       <row>
        	   <field>
 		 <dc-schema>dc</dc-schema>
          <dc-element>contributor</dc-element>
          <dc-qualifier>advisor2</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Segundo orientador:</label>
+         <label>&lt;div class="alert alert-info"&gt;Descrição do &lt;strong&gt;SEGUNDO ORIENTADOR&lt;/strong&gt;&lt;/div&gt;
+         Segundo orientador:</label>
 		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>name</input-type>
-         <hint>&lt;div class="alert alert-info"&gt;Descrição do &lt;strong&gt;SEGUNDO ORIENTADOR&lt;/strong&gt;&lt;/div&gt;
+         <hint>
 		       &lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o nome do segundo orientador, conforme o formato de citação.</hint>
          <required></required>
         </field>
-
-	    <field>
+       </row>
+       <row>
+            <field>
 		 <dc-schema>dc</dc-schema>
          <dc-element>contributor</dc-element>
          <dc-qualifier>advisor2Lattes</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>&lt;a href="http://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar" target="_blank" &gt;URL do Currículo Lattes&lt;/a&gt; do orientador:</label>
+         <label>URL do Currículo Lattes do orientador:</label>
 		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
 		 <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe a URL do currículo lattes do orientador.</hint>
          <required></required>
-       </field>
-	   
-	   <field>
+            </field>
+       </row>
+       <row>
+       	   <field>
 		 <dc-schema>dc</dc-schema>
          <dc-element>contributor</dc-element>
          <dc-qualifier>advisor2ID</dc-qualifier>
@@ -387,19 +391,22 @@
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o identificador único do orientador(CPF, ID de autor privativa da instituição ou passaporte).</hint>
          <required></required>
-       </field>  -->
-          <!-- PRIMEIRO CO-ORIENTADOR 
+       </field> 
+       </row>
+	   
+          <!-- PRIMEIRO CO-ORIENTADOR -->
             <row>
                 <field>
                     <dc-schema>dc</dc-schema>
                     <dc-element>contributor</dc-element>
                     <dc-qualifier>advisor-co1</dc-qualifier>
                     <repeatable>false</repeatable>
-                    <label>Primeiro coorientador:</label>
+                    <label>&lt;div class="alert alert-info"&gt;Se houver, descrição do &lt;strong&gt;PRIMEIRO CO-ORIENTADOR&lt;/strong&gt;
+                        &lt;/div&gt;
+                    Primeiro coorientador:</label>
                     <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
                     <input-type>name</input-type>
-                    <hint>&lt;div class="alert alert-info"&gt;Se houver, descrição do &lt;strong&gt;PRIMEIRO CO-ORIENTADOR&lt;/strong&gt;
-                        &lt;/div&gt;
+                    <hint>
                         &lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o nome do primeiro coorientador, conforme o formato de citação.</hint>
                     <required></required>
                 </field>
@@ -411,15 +418,15 @@
                     <dc-element>contributor</dc-element>
                     <dc-qualifier>advisor-co1Lattes</dc-qualifier>
                     <repeatable>false</repeatable>
-                    <label>&lt;a href="http://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar" target="_blank" &gt;URL do Currículo Lattes&lt;/a&gt; do primeiro coorientador:</label>
+                    <label>URL do Currículo Lattes do primeiro coorientador:</label>
 		            <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind> 
 		            <input-type>onebox</input-type>
                     <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe a URL do currículo lattes do primeiro coorientador.</hint>
                     <required></required>
                     </field>
-            </row> -->
+            </row> 
 
-            <!-- <row>
+             <row>
              <field>
                 <dc-schema>dc</dc-schema>
                 <dc-element>contributor</dc-element>
@@ -432,35 +439,39 @@
                 <required></required>
             </field>  
             </row>
-            -->
+        
               <!-- SEGUNDO CO-ORIENTADOR -->
-	   
-	   <field>
+            <row>
+            <field>
 		 <dc-schema>dc</dc-schema>
          <dc-element>contributor</dc-element>
          <dc-qualifier>advisor-co2</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Segundo coorientador:</label>
+         <label>&lt;div class="alert alert-info"&gt;Se houver, descrição do &lt;strong&gt;SEGUNDO CO-ORIENTADOR&lt;/strong&gt;
+	           &lt;/div&gt;
+         Segundo coorientador:</label>
 		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>name</input-type>
-         <hint>&lt;div class="alert alert-info"&gt;Se houver, descrição do &lt;strong&gt;SEGUNDO CO-ORIENTADOR&lt;/strong&gt;
-	           &lt;/div&gt;
-		       &lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o nome do segundo coorientador, conforme o formato de citação.</hint>
+         <hint>
+		    &lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o nome do segundo coorientador, conforme o formato de citação.</hint>
          <required></required>
        </field>
-
+            </row>
+	   
+        <row>
 	    <field>
 		 <dc-schema>dc</dc-schema>
          <dc-element>contributor</dc-element>
          <dc-qualifier>advisor-co2Lattes</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>&lt;a href="http://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar" target="_blank" &gt;URL do Currículo Lattes&lt;/a&gt; do segundo coorientador:</label>
+         <label>URL do Currículo Lattes do segundo coorientador:</label>
 		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind> 
 		<input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe a URL do currículo lattes do segundo coorientador.</hint>
          <required></required>
        </field>
-	   
+       </row>
+	   <row>
 	   <field>
 		 <dc-schema>dc</dc-schema>
          <dc-element>contributor</dc-element>
@@ -472,6 +483,7 @@
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o identificador único do segundo coorientador (CPF, ID de autor privativa da instituição ou passaporte).</hint>
          <required></required>
        </field>  
+       </row>
 
        <!--	  
 
