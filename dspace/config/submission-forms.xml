@@ -300,11 +300,25 @@
                     <required>*</required>
                 </field>
             </row>
-            <row>
+            <!-- METADADO IBICT -->
+            <!-- <row>
                   <field>
                         <dc-schema>dc</dc-schema>
                         <dc-element>creator</dc-element>
                         <dc-qualifier>Lattes</dc-qualifier>
+                        <repeatable>false</repeatable>
+                        <label>URL do Currículo Lattes do Autor:</label>
+                        <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
+                        <input-type>onebox</input-type>
+                        <hint>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Informe a URL do currículo lattes do autor.</hint>
+                        <required>*</required>
+                    </field>
+            </row> -->
+            <row>
+                  <field>
+                        <dc-schema>dc</dc-schema>
+                        <dc-element>identifier</dc-element>
+                        <dc-qualifier>lattes-author</dc-qualifier>
                         <repeatable>false</repeatable>
                         <!-- <label>&lt;a href="http://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar" target="_blank" &gt;URL do Currículo Lattes&lt;/a&gt; do autor:</label> -->
                         <label>URL do Currículo Lattes do Autor:</label>
