@@ -34,7 +34,10 @@ services:
       proxies__P__trusted__P__ipranges: '172.23.0'
       rest__P__cors__P__allowed-origins: http://45.178.183.5:80, http://45.178.183.5:4000, http://localhost:4000/, http://vreli.com.br
 
+<<<<<<< HEAD
       LOGGING_CONFIG: /dspace/config/log4j2-container.xml
+=======
+>>>>>>> uea_dev
     image: "${DOCKER_OWNER:-dspace}/dspace:${DSPACE_VER:-dspace-7_x-test}"
     build:
       context: .
