@@ -1779,6 +1779,12 @@
                 <stored-value>Universidade do Estado do Amazonas</stored-value>
             </pair>
         </value-pairs>
+        <value-pairs value-pairs-name="common_sigla_ies" dc-term="initials">
+            <pair>
+                <displayed-value>IBICT</displayed-value>
+                <stored-value>IBICT</stored-value>
+            </pair>
+        </value-pairs>
 
         <value-pairs value-pairs-name="common_rights" dc-term="rights">
                 <pair>
